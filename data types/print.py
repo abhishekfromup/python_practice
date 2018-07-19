@@ -1,3 +1,0 @@
-# print.py
-
-print("Hi")	
