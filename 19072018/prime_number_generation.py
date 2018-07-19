@@ -1,11 +1,11 @@
 # test.py
-#import math
-from math import sqrt
+import math
+# from math import sqrt
 
 def primeNumberGenerator(limit):
 	global total
 	for i in range(2, limit):
-		for j in range(2, int(sqrt(i))+1):
+		for j in range(2, int(math.sqrt(i))+1):
 			if ((i % j) == 0):
 			# print("%d is NOT prime number \n" %i)
 				break
