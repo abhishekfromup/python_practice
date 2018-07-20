@@ -14,7 +14,7 @@ def primeNumberGenerator(limit):
 			total += 1
 
 
-total = 0
+# total = 0
 
 def main():
 	global total, limit
